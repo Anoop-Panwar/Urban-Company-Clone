@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* utility  */
+.container{
+    width: 1260px;
+    margin-inline: auto;
+
+}
+
+.flex{
+    display: flex;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-top: 15px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+    /* scroll arrow button */
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.scroll-btn{
+    position: relative;
+   
+}
+
+.left-btn{
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    z-index: 1;
+}
+
+.right-btn{
+    position: absolute;
+    top: 45%;
+    right: -25px;
+
+}
+
+.arrow-buttons-img{
+    width: 48px;
+    padding: 14px;
+    background-color: white;
+    border: 2px solid rgba(227,227,227,1.00);
+    border-radius: 30px; 
+
+}
+
+   /* link button */
+.button{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(110, 66, 229, 1.00);
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 1.00);
+    
+
+}
+
+/* nav bar */
+nav{
+    border-bottom: 1px solid rgb(223, 223, 223);
+
+}
+
+.main-nav{
+    display: flex;
+    padding: 25px 0px 25px 0px;
+    justify-content: space-between;
+    
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px
+
+}
+
+.company-logo > img{
+    height: 30px;
+    width: 108px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+li a{
+    color: rgb(84, 84, 84);
+}
+
+.right-nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-right: 15px;
+   
+}
+
+.nav-icon img{
+    display: flex;
+    width: 20px;
+    height: 20px ;
+    
+}
+
+ /* search bar */
+.searchbar{
+    border: 1px solid rgba(227,227,227,1.00);
+    border-radius: 10px;
+    margin-left: 230px;
+
+}
+
+.searchbar:hover{
+    border: 1px solid black;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    cursor: pointer;
+}
+
+input{
+    height: 48px;
+    width: 226px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 10px;
+    
+}
+
+input[type = 'search']::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-image: url('./assets/asset\ 98.png');
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+/* header section */
+
+.header-section{
+    margin-top: 30px;
+
+
+}
+
+.left-header{
+    flex-direction: column;
+    margin-right: 150px;
+    
+}
+
+.services{
+    border: 2px solid rgba(227,227,227,1.00);
+    border-radius: 10px;
+    padding: 24px 24px 35px;
+    margin-top: 30px;
+    
+}
+
+h3{
+    margin-bottom: 27px;
+    color: rgb(84 84 84);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.services-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 25px;
+
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245 245 245);
+    height: 70px;
+    width: 136px;
+    border-radius: 5px;
+
+}
+
+.img-container:hover{
+    opacity: 80%;
+   
+}
+
+
+.img-container-2{
+    width: 210px;
+
+}
+
+.services-list img{
+    margin: 5px 0px 5px 0px;
+    height: 56px;
+
+}
+
+.service-name{
+    font-size: 12px;
+    font-weight: 400;
+    width: 120px;
+    color: black;
+    text-align: center;
+    margin: 5px auto;
+
+}
+
+.rating-users{
+    margin-top: 32px;
+    gap: 120px;
+}
+
+.rating{
+    gap: 15px;
+
+}
+
+.number{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.rating-user-text{
+    font-size: 14px;
+    color: rgb(84 84 84);
+}
+
+.rating-users-details{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-header > img{
+    height: 616px;
+    background-color: black;
+
+}
+
+.services-examples{
+    margin-block: 96px;
+    overflow: hidden;
+    gap: 30px;
+
+}
+
+.services-examples > a > img{
+    border-radius: 10px;
+
+}
+
+/* new and most booked services */
+.services-details{
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+
+.services-details > a  > img{
+    width: 233px;
+    border-radius: 8px;
+
+}
+
+.most-booked-services{
+    margin-top: 96px;
+    margin-bottom: 96px;
+
+}
+
+.booked-services-details{
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+
+}
+
+/* salon and spa */
+
+
+.card-banner{
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.spa-massage-text{
+    font-size: 16px;
+    color: rgb(84, 84, 84);
+
+}
+
+.cards-group{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    gap: 21px;
+    overflow: hidden;
+
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgba(227,227,227,1.00);
+    border-radius: 10px;
+
+}
+
+.card:hover{
+    border: 2px solid rgb(183, 183, 183);
+    transition: 0.25s;
+
+}
+
+.card-info{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-img{
+    background-color: white;
+    height:278.3px;
+    width: 231.6px;
+    align-items: end;
+    border-radius: 10px;
+
+}
+
+.card-img>img{
+    height: 173.7px;
+    width: 231.6px;
+    border-radius: 10px;
+
+}
+
+/* footer */
+
+footer{
+    padding-block: 45px;
+    background-color: rgb(245, 245, 245);
+}
+
+.main-footer{
+    padding: 0px 16px 20px 16px;
+    border-bottom: 1px solid rgb(227 227 227);
+}
+
+.footer-content{
+    margin-top: 30px;
+    justify-content: space-between;
+    
+    
+}
+
+.footer-link{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column-link{
+    font-size: 14px;
+    color: rgba(84, 84, 84, 1.00);
+}
+
+.column-text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-block: 15px;
+}
+
+.social-link{
+    gap: 10px;
+
+}
+
+.social-img{
+    background-color: white;
+    padding: 5px;
+    width: 40px;
+    border-radius: 15px; 
+    border: 1px solid rgba(227,227,227,1.00);
+    
+}
+
+.sub-footer{
+    padding: 60px 16px 0px 16px;
+    color: rgba(84, 84, 84, 1.00);
+    font-size: 12px;
+
+}
