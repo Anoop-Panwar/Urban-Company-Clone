@@ -15,7 +15,8 @@ body{
 .container{
     width: 1260px;
     margin-inline: auto;
-
+    padding: 0 15px;
+   
 }
 
 .flex{
@@ -31,6 +32,7 @@ h1{
 h2{
     font-size: 36px;
     font-weight: 600;
+    
 }
 
 h4{
@@ -61,14 +63,14 @@ button{
 .left-btn{
     position: absolute;
     top: 40%;
-    left: -25px;
+    left: -10px;
     z-index: 1;
 }
 
 .right-btn{
     position: absolute;
-    top: 45%;
-    right: -25px;
+    top: 40%;
+    right: -10px;
 
 }
 
@@ -121,6 +123,7 @@ nav{
 .company-logo > img{
     height: 30px;
     width: 108px;
+    margin-left: 15px;
 
 }
 
@@ -179,7 +182,7 @@ input{
     border-radius: 10px;
     
 }
-
+        
 input[type = 'search']::-webkit-search-cancel-button{
     -webkit-appearance: none;
     height: 30px;
@@ -194,13 +197,13 @@ input[type = 'search']::-webkit-search-cancel-button{
 
 .header-section{
     margin-top: 30px;
-
+    gap: 120px;
 
 }
 
 .left-header{
     flex-direction: column;
-    margin-right: 150px;
+    flex-basis: 40%;
     
 }
 
@@ -243,7 +246,6 @@ h3{
     opacity: 80%;
    
 }
-
 
 .img-container-2{
     width: 210px;
@@ -355,7 +357,7 @@ h3{
 .cards-group{
     margin-top: 40px;
     margin-bottom: 100px;
-    gap: 21px;
+    gap: 14px;
     overflow: hidden;
 
 }
@@ -404,6 +406,7 @@ h3{
 footer{
     padding-block: 45px;
     background-color: rgb(245, 245, 245);
+    
 }
 
 .main-footer{
@@ -412,6 +415,7 @@ footer{
 }
 
 .footer-content{
+    flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-between;
     
@@ -419,6 +423,7 @@ footer{
 }
 
 .footer-link{
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 10px;
 }
