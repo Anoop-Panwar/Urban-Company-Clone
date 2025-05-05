@@ -159,6 +159,17 @@
 @media screen and (max-width: 479px) {
 
 
+  h1{
+    font-size: 28px;
+
+  }
+
+  h2{
+    font-size: 20px;
+    width: 75%;
+    
+  }
+
   .img-container{
       width: 136px;
   
@@ -174,6 +185,16 @@
 
   }
 
+  .services-examples > a > img{
+    width: 325px;
+
+  }
+
+  .rating-users{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
   .searchbar{
     width: 90vw;
     left: 25px;
@@ -183,11 +204,6 @@
   input{
     width: 80vw;
 
-  }
-
-  .rating-users{
-    flex-wrap: wrap;
-    gap: 80px;
   }
 
 }
