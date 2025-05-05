@@ -83,11 +83,33 @@
 
   }
 
+  /* width for verticle prefer height */
+  ::-webkit-scrollbar {
+    height: 5px;
+
+  }
+
+  /* Tracker */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+
+  }
+  
+  /* thumb */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+
+  }
+
   .sub-footer{
     padding: 30px 16px 30px 16px;
   }
 
+
 }
+
+
 
 @media screen and (max-width: 768px){
 
@@ -150,6 +172,22 @@
   .services {
     padding: 24px 2px 35px;
 
+  }
+
+  .searchbar{
+    width: 90vw;
+    left: 25px;
+    
+  } 
+
+  input{
+    width: 80vw;
+
+  }
+
+  .rating-users{
+    flex-wrap: wrap;
+    gap: 80px;
   }
 
 }
